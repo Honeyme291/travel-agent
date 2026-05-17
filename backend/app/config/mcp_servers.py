@@ -16,17 +16,17 @@ class MCPServerConfig:
 MCP_SERVERS: Dict[str, MCPServerConfig] = {
     "amap-maps": MCPServerConfig(
         name="amap-maps",
-        url="https://mcp.api-inference.modelscope.net/42a6badeb9744b/mcp",
+        url="",
         description="高德地图服务 — 天气、地理编码、POI搜索、路线规划",
     ),
     "12306-mcp": MCPServerConfig(
         name="12306-mcp",
-        url="https://mcp.api-inference.modelscope.net/c5a4e4a633514a/mcp",
+        url="",
         description="12306 火车票查询 — 站点代码、车票查询、中转查询",
     ),
     "Bazi-MCP": MCPServerConfig(
         name="Bazi-MCP",
-        url="https://mcp.api-inference.modelscope.net/293453453eaf40/mcp",
+        url="",
         description="黄历/八字查询 — 黄历吉日、八字命理",
     ),
 }
